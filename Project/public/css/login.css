@@ -1,0 +1,30 @@
+body
+{
+    background: gray;
+    font-family: Optima,sans-serif;
+    font-size: 10px;
+}
+
+#login
+{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    min-height: 60%;
+    padding: 20px;
+}
+
+#header
+{
+    display: flex;
+    background-color: aliceblue;
+    width: 120%;
+    
+}
+#img
+{
+    width: auto;
+    height: auto;
+}
