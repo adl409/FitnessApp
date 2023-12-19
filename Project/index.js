@@ -14,7 +14,7 @@ app.listen(8080);
 
 app.get('/', function(req, res){
 
-    res.render('pages/login')
+    res.render('pages/frontpage')
 
 });
 
