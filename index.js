@@ -14,7 +14,22 @@ app.listen(8080);
 
 app.get('/', function(req, res){
 
-    res.render('pages/login')
+    res.render('pages/frontpage');
 
 });
 
+app.get('/about', function(req,res){
+    res.render('pages/about');
+});
+
+app.get('/contact', function(req,res){
+    res.render('pages/contact');
+});
+
+app.get('/demo', function(req,res){
+    res.render('pages/demo');
+});
+
+app.get('/login', function(req,res){
+    res.render('pages/login');
+});
