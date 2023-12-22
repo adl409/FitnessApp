@@ -1,6 +1,5 @@
 var express = require('express');
 var ejs = require('ejs');
-
 var GLOBAL = {};
 
 var app = express();
